@@ -1,14 +1,13 @@
-iso/
-extracted/
-generated/
+# build outputs
 build/
-extern/
-database/
-build-*/
-cmake-build-*/
-CMakeUserPresets.json
-.cache/
+llvm_build/
+msvc_build/
+*.log
 
-# OS
-.DS_Store
-Thumbs.db
+# the automation scratch dir: command files, save states (10s of MB), screenshots
+mg_auto/
+mg_user/
+
+# extracted game data
+extracted/
+database/*.bin
